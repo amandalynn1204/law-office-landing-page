@@ -49,10 +49,28 @@ h1 {
   max-width: 800px;
 }
 
+h2 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 22px;
+}
+
 p {
   font-family: var(--primary-font);
   line-height: 26px;
   font-size: 16px;
+}
+
+img {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02),
+    0px 9px 7px 0px rgba(0, 0, 0, 0.03), 0px 23px 15px 0px rgba(0, 0, 0, 0.04),
+    0px 44px 29px 0px rgba(0, 0, 0, 0.04), 0px 74px 54px 0px rgba(0, 0, 0, 0.05);
 }
 
 section {
@@ -65,14 +83,27 @@ section {
   padding: 0 20px;
 }
 
-.hero-img {
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.02),
-    0px 9px 7px 0px rgba(0, 0, 0, 0.03), 0px 23px 15px 0px rgba(0, 0, 0, 0.04),
-    0px 44px 29px 0px rgba(0, 0, 0, 0.04), 0px 74px 54px 0px rgba(0, 0, 0, 0.05);
+.read-more-link {
+  text-transform: uppercase;
+  color: black;
+  font-family: var(--primary-font);
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 1.5px solid black;
+  padding: 6px 0;
 }
 
-@media (max-width: 786px) {
+.read-more-link:hover {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
   h1 {
     font-size: 42px;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
