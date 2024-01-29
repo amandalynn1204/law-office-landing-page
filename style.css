@@ -1,12 +1,10 @@
 :root {
-  --primary-font-color: #1e1e1e;
   --heading-font: "Vollkorn", serif;
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Lato", sans-serif;
 }
 
 nav {
-  color: var(--primary-font-color);
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
