@@ -1,1 +1,50 @@
+:root {
+  --primary-font-color: #1e1e1e;
+  --heading-font: "Vollkorn", serif;
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+}
 
+nav {
+  color: var(--primary-font-color);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+nav p {
+  font-family: var(--heading-font);
+  font-size: 20px;
+  margin: 0;
+}
+
+nav ul {
+  font-family: var(--primary-font);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-size: 18px;
+  padding: 0 12px;
+  margin-left: 32px;
+}
+
+nav a {
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
